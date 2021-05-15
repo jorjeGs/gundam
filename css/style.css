@@ -404,6 +404,69 @@ textarea.input {
   transition: 0.2s all;
 }
 
+#titulos h1{
+text-align: center;
+margin: 50px;
+font-size: 90px;
+background: -webkit-linear-gradient(rgba(105, 0, 0, 0.938),red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+     color: tomato;
+}
+
+#builds{
+  background-color: #15161D;
+  border: none;
+  font-family: 'roboto', sans-serif;  
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  background-image: linear-gradient(180deg, #ff8926 0, #ff7a2d 12.5%, #ff652f 25%, #ff482e 37.5%, #ff0e2b 50%, #f1002a 62.5%, #e5002c 75%, #dd0032 87.5%, #d7003b 100%);
+ border-radius: 20px;
+}
+
+#builds h1{
+  color: white;
+  margin-top: 40px;
+  font-size: 60px;
+  font-style: italic;
+}
+#builds h2{
+  color: white;
+  margin: 0px;
+}
+#builds p{
+  margin-top: 50px;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+#builds button{
+  margin-top: 40px;
+  width: 250px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  background: none;
+  box-shadow: inset 0 0 0 3px white;
+  color:white;
+  font-size: 30px;
+}
+
+#builds button:hover{
+  
+  text-decoration: none;
+  box-shadow: none;
+  background: -webkit-linear-gradient(rgba(255, 122, 122, 0.849),red);
+  color:white;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+
+}
+
 /*----------------------------*\
 	Breadcrumb
 \*----------------------------*/
