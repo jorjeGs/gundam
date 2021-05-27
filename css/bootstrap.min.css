@@ -1355,8 +1355,8 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
-    background-color: #fff
+    color: #FFF;
+    background-color: #333
 }
 
 button, input, select, textarea {
@@ -6072,12 +6072,12 @@ a.list-group-item-danger, button.list-group-item-danger {
 
     .panel-primary > .panel-heading {
         color: #fff;
-        background-color: #337ab7;
-        border-color: #337ab7
+        background-color: #333;
+        border-color: #333
     }
 
         .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-            border-top-color: #337ab7
+            border-top-color: #122b40
         }
 
         .panel-primary > .panel-heading .badge {
@@ -6866,7 +6866,7 @@ button.close {
         margin: 1px;
         text-indent: -999px;
         cursor: pointer;
-        background-color: #000\9;
+        background-color: #0009;
         background-color: rgba(0,0,0,0);
         border: 1px solid #fff;
         border-radius: 10px
