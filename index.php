@@ -1,7 +1,3 @@
-<?php
-include 'global/config.php';
-include 'global/conexion.php'
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -96,7 +92,7 @@ include 'global/conexion.php'
 
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
-					<button onclick="location.href='#'">Productos</button>
+					<button onclick="location.href='product.php'">Productos</button>
 				</div>
 				<!-- /shop -->
 
