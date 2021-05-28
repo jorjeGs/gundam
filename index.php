@@ -74,7 +74,7 @@
 				<div class="col-lg-6">
 					<img src="resources/bannerpc.png" width="400" class="img-fluid">
 				</div>
-				<button onclick="location.href='index.html'">Conoce</button>
+				<button onclick="location.href='index.php'">Conoce</button>
 			</div>
 		</div>
 	</div>
@@ -98,7 +98,7 @@
 
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
-					<button onclick="location.href='#'">Contacto</button>
+					<button onclick="location.href='contacto.php'">Contacto</button>
 				</div>
 				<!-- /shop -->
 			</div>
