@@ -74,7 +74,7 @@
 				<div class="col-lg-6">
 					<img src="resources/bannerpc.png" width="400" class="img-fluid">
 				</div>
-				<button onclick="location.href='index.php'">Conoce</button>
+				<button onclick="location.href='aboutUs.html'">Conoce</button>
 			</div>
 		</div>
 	</div>
