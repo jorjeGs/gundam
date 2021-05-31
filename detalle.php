@@ -45,24 +45,31 @@ if (isset($_GET['id'])) {
 
 <body>
   <div class="container">
-  <form>
-  <table border="0">
-    <tr>
-    <th rowspan="4"><img src="./resources/<?php echo $fila[4]; ?>" alt="<?php echo $fila[1]; ?>" width="200" height="200"></th>
-    <th><?php echo $fila[1]; ?></th>
-    </tr>
-    <tr>
-    <td align="justify"><?php echo $fila[2]; ?></td>
-    </tr>
-    <tr>
-    <th align="right">Precio: $<strong><?php echo $fila[3]; ?></strong></th>
-    </tr>
-    <tr>
-    <td align="right">Cantidad: <input type="number" min="1" max="10" value="1" name="txtCantidad"> </td>
-    </tr>
-  </table>
-  </form>
+    <form>
+      <table class="tablaDetalle">
+        <tr>
+          <th rowspan="4" class="detalleImagen"><img src="./resources/<?php echo $fila[4]; ?>" alt="<?php echo $fila[1]; ?>" width="200" height="200"></th>
+          <th><?php echo $fila[1]; ?></th>
+        </tr>
+        <tr>
+          <td><?php echo $fila[2]; ?></td>
+        </tr>
+        <tr>
+          <th>Precio: $<strong><?php echo $fila[3]; ?></strong></th>
+        </tr>
+        <tr>
+          <td>Cantidad: <input type="number" min="1" max="10" value="1" name="txtCantidad"> </td>
+        </tr>
+      </table>
+    </form>
+    <div class="modal-footer">
+      <button type="button" class="primary-btn" data-dismiss="modal">Cerrar</button>
+      <a href="cart.php?id=<?php echo $fila[0]; ?>" class="primary-btn" role="button" aria-pressed="true">Agregar</a>
+    </div>
+
   </div>
+
+
 
   <!-- jQuery Plugins -->
   <script src="js/jquery.min.js"></script>
