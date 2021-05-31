@@ -83,7 +83,7 @@ session_start();
 
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
-					<button onclick="location.href='#'">Contacto</button>
+					<button onclick="location.href='contacto.php'">Contacto</button>
 				</div>
 				<!-- /shop -->
 			</div>
