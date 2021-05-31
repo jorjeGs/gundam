@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,28 +44,9 @@
 <body>
 	<!-- HEADER -->
 	<header>
-		<!-- TOP HEADER -->
-		<div id="top-header">
-			<div class="container">
-				<ul class="header-links pull-left">
-					<li><a href="#"><i class="fa fa-phone"></i> +52 646-666-66-66</a></li>
-					<li><a href="#"><i class="fa fa-envelope-o"></i> fce@uabc.com</a></li>
-					<li><a href="#"><i class="fa fa-map-marker"></i> Ensenada, Baja California, Mexico.</a></li>
-				</ul>
-				<ul class="header-links pull-right">
-					<li><a href="#"><i class="fa fa-dollar"></i> MXN</a></li>
-				</ul>
-			</div>
-		</div>
-		<!-- /TOP HEADER -->
-
-		<!-- MAIN HEADER -->
-		<!-- /MAIN HEADER -->
+	<?php include("./layouts/header.php");?>
 	</header>
 	<!-- /HEADER -->
-
-	<!-- NAVIGATION -->
-	<!-- /NAVIGATION -->
 
 	<!--Banner principal-->
 	<div class="section">
@@ -74,7 +59,7 @@
 				<div class="col-lg-6">
 					<img src="resources/bannerpc.png" width="400" class="img-fluid">
 				</div>
-				<button onclick="location.href='index.html'">Conoce</button>
+				<button onclick="location.href='index.php'">Conoce</button>
 			</div>
 		</div>
 	</div>
@@ -86,7 +71,7 @@
 			<div class="row" id="menuBar">
 				<!-- shop -->
 				<div class="col-md-4 col-xs-6">
-					<button onclick="location.href='builds.html'">Builds</button>
+					<button onclick="location.href='builds.php'">Builds</button>
 				</div>
 				<!-- /shop -->
 
@@ -109,38 +94,7 @@
 	<!-- /SECTION -->
 
 
-	<!-- FOOTER -->
-	<footer id="footer">
-		<!-- bottom footer -->
-		<div id="bottom-footer" class="section">
-			<div class="container">
-				<!-- row -->
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<ul class="footer-payments">
-							<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
-							<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
-							<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
-							<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
-							<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
-							<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
-						</ul>
-						<span class="copyright">
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-							Copyright &copy;<script>
-								document.write(new Date().getFullYear());
-							</script> All rights reserved.
-							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						</span>
-					</div>
-				</div>
-				<!-- /row -->
-			</div>
-			<!-- /container -->
-		</div>
-		<!-- /bottom footer -->
-	</footer>
-	<!-- /FOOTER -->
+	<?php include("./layouts/footer.php");?>
 
 	<!-- jQuery Plugins -->
 	<script src="js/jquery.min.js"></script>
