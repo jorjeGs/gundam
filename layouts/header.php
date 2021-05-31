@@ -78,9 +78,9 @@
 						<div class="cont-menu">
 							<nav>
 								<a href="index.php">Inicio</a>
-								<a href="builds.html">Builds</a>
-								<a href="#">Productos</a>
-								<a href="#">Contacto</a>
+								<a href="builds.php">Builds</a>
+								<a href="product.php">Productos</a>
+								<a href="contacto.php">Contacto</a>
 								<a href="#">Facebook</a>
 								<a href="#">Youtube</a>
 								<a href="#">Instagram</a>
