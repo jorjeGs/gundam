@@ -106,9 +106,11 @@ if (isset($_SESSION['carrito'])) {
 								</thead>
 								<tbody>
 									<?php
+									$total = 0;
 									if (isset($_SESSION['carrito'])) {
 										$arregloCarrito = $_SESSION['carrito'];
 										for ($i = 0; $i < count($arregloCarrito); $i++) {
+											$total = $total + ($arregloCarrito[$i]['Precio'] * $arregloCarrito[$i]['Cantidad'])
 									?>
 											<tr>
 												<td class="product-thumbnail">
@@ -177,7 +179,7 @@ if (isset($_SESSION['carrito'])) {
 										<span class="text-black">Subtotal</span>
 									</div>
 									<div class="col-md-6 text-right">
-										<strong class="text-black">$230.00</strong>
+										<strong class="text-black">$<?php echo $total?></strong>
 									</div>
 								</div>
 								<div class="row mb-5">
@@ -185,13 +187,13 @@ if (isset($_SESSION['carrito'])) {
 										<span class="text-black">Total</span>
 									</div>
 									<div class="col-md-6 text-right">
-										<strong class="text-black">$230.00</strong>
+										<strong class="text-black">$<?php echo $total + ($total*.16)?></strong>
 									</div>
 								</div>
 
 								<div class="row">
 									<div class="col-md-12">
-										<button class="btn btn-primary btn-lg py-3 btn-block" onclick="window.location='checkout.php'">Proceed To Checkout</button>
+										<button class="btn btn-primary btn-lg py-3 btn-block" onclick="window.location='checkout.php'">Checkout</button>
 									</div>
 								</div>
 							</div>
@@ -203,6 +205,8 @@ if (isset($_SESSION['carrito'])) {
 
 
 	</div>
+
+	<footer><?php include("./layouts/footer.php"); ?></footer>
 
 
 
@@ -265,7 +269,7 @@ if (isset($_SESSION['carrito'])) {
 	</script>
 
 
-	<?php include("./layouts/footer.php"); ?>
+
 </body>
 
 </html>
