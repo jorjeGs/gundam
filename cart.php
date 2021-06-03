@@ -150,7 +150,7 @@ if (isset($_SESSION['carrito'])) {
 								<button class="btn btn-primary btn-sm btn-block">Update Cart</button>
 							</div>
 							<div class="col-md-6">
-								<button class="btn btn-outline-primary btn-sm btn-block">Continue Shopping</button>
+								<button class="btn btn-outline-primary btn-sm btn-block" onclick="location.href='product.php'">Continue Shopping</button>
 							</div>
 						</div>
 						<div class="row">
