@@ -63,7 +63,7 @@ session_start();
                         <div class="card-body" class="info">
                           <h1 class="card-title">AeroCool Cyclon</h1>
                           <p class="card-text">Solo lo mas esencial para jugar los juegos del momento con tus amigos.</p>
-                          <button onclick="location.href='#'" >Ordena Ya</button>
+                          <button onclick="location.href='product.php'" >Ordena Ya</button>
                         </div>
                       </div>
                     </div>
@@ -75,7 +75,7 @@ session_start();
                         <div class="card-body" class="info">
                           <h1 class="card-title">Zalman M3</h1>
                           <p class="card-text">Para el trabajo, la escuela, y el gaming a mayor velocidad.</p>
-                          <button onclick="location.href='#'" >Ordena Ya</button>
+                          <button onclick="location.href='product.php'" >Ordena Ya</button>
                         </div>
                       </div>
                       <div class="col-md-6">
@@ -95,7 +95,7 @@ session_start();
                         <div class="card-body" class="info">
                           <h1 class="card-title">Lian-Li</h1>
                           <p class="card-text">Chatea, graba, o haz stream de tus juegos favoritos, todo en una PC.</p>
-                          <button onclick="location.href='#'" >Ordena Ya</button>
+                          <button onclick="location.href='product.php'" >Ordena Ya</button>
                         </div>
                       </div>
                     </div>
@@ -107,7 +107,7 @@ session_start();
                         <div class="card-body" class="info">
                           <h1 class="card-title">Phanteks Eclipse</h1>
                           <p class="card-text">Los ultimos y mas nuevos juegos AAA en 4K a 60FPS, sin problemas, lo tienes aqui.</p>
-                          <button onclick="location.href='#'" >Ordena Ya</button>
+                          <button onclick="location.href='product.php'" >Ordena Ya</button>
                         </div>
                       </div>
                       <div class="col-md-6">
@@ -130,7 +130,7 @@ session_start();
                           <h1 class="card-title">GUNDAM V</h1>
                           <p class="card-text">La Maquina de Combate unica y superior de <strong>Gundam</strong></p>
                           <p class="card-text"><em><strong>Por tiempo LIMITADO</strong></em></p>
-                          <button onclick="location.href='#'" >Ordena Ya</button>
+                          <button onclick="location.href='product.php'" >Ordena Ya</button>
                         </div>
                       </div>
                     </div>
