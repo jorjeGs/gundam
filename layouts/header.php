@@ -81,9 +81,9 @@
 								<a href="builds.php">Builds</a>
 								<a href="product.php">Productos</a>
 								<a href="contacto.php">Contacto</a>
-								<a href="#">Facebook</a>
-								<a href="#">Youtube</a>
-								<a href="#">Instagram</a>
+								<a href="https://www.facebook.com/FC.UABC">Facebook</a>
+								<a href="https://www.youtube.com/channel/UCOc93OfYi58yAmkC8qZaHQw">Youtube</a>
+								<a href="https://www.instagram.com/uabc_oficial/?hl=es-la">Instagram</a>
 							</nav>
 							<label for="btn-menu">✖️</label>
 						</div>
